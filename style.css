@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+}
+
+
+.wa {
+    align-self: center;
+    background-image: url("pixil-frame-0.png");
+    width: 700px;
+    height: 700px;
+    background-size: cover;
+    animation-duration: 1s;
+    animation-name: dance;
+    animation-iteration-count: infinite;
+}
+
+.w {
+    align-self: center;
+    background-image: url("w1.png");
+    width: 700px;
+    height: 700px;
+    background-size: cover;
+    animation-duration: 19s;
+    animation-name: screem;
+    animation-fill-mode: forwards;
+}
+
+@keyframes dance {
+    10% {background-image: url("pixil-frame-0.png");}
+    20% {background-image: url("pixil-frame-1.png");}
+    30% {background-image: url("pixil-frame-2.png");}
+    40% {background-image: url("pixil-frame-3.png");}
+    50% {background-image: url("pixil-frame-4.png");}
+    60% {background-image: url("pixil-frame-5.png");}
+    70% {background-image: url("pixil-frame-6.png");}
+    80% {background-image: url("pixil-frame-7.png");}
+    90% {background-image: url("pixil-frame-8.png");}
+    100% {background-image: url("pixil-frame-0.png");}
+}
+
+@keyframes screem {
+    10% {background-image: url("wa1.png");}
+    20% {background-image: url("wa1.png");}
+    30% {background-image: url("wa1.png");}
+    40% {background-image: url("wa1.png");}
+    50% {background-image: url("wa1.png");}
+    60% {background-image: url("wa2.png");}
+    70% {background-image: url("wa2.png");}
+    80% {background-image: url("wa2.png");}
+    90% {background-image: url("wa2.png");}
+    100% {background-image: url("wa2.png");}
+}
